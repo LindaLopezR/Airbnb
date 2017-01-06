@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alquileres vacacionales, casas, experiencias y lugares - Airbnb</title>
+	<meta class="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="css/main.css">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="shortcut icon" sizes="76x76" type="image/x-icon" href="https://a1.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+		<div class="container">
+		   <div class="navbar-header">
+		    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavar" aria-expanded="false">
+				    <span class="sr-only">Toggle navigation</span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+		    	</button>
+		      <a class="navbar-brand" href="#"><img src="https://a1.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png" class="logo" alt="Airbnb">
+		      </a>
+		   </div>
+		   <div class="collapse navbar-collapse" id="myNavar">
+		      <ul class="nav navbar-nav navbar-right">
+		      	<li><a href="#">Conviértete en anfitrión</a></li>
+		      	<li><a href="#">Ayuda</a></li>
+		      	<li><a href="#">Regístrate</a></li>
+		      	<li><a href="#">Iniciar sesión</a></li>
+		      </ul>
+		   </div>
+		</div>
+	</nav>
+	<!-- CAROUSEL -->
+	<section>
+		<div id="carousel-1" class="carousel slide" data-ride="carousel">
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+   			<div class="item active">
+      			<div class="image-Trips"></div>
+					<div class="carousel-caption">
+						<h1>Te espera un mundo de viajes inolvidables.</h1>
+						<p>Alojamientos, experiencias y lugares, todo en una sola aplicación.</p>
+						<p><a class="btn button-black" href="#" role="button">Descubre las últimas novedades</a></p>
+					</div>
+   			</div>
+   			<div class="item slide-2">
+   				<div class="images-Experences"></div>
+					<div class="carousel-caption">
+						<h1>Experiencias de Airbnb</h1>
+						<p>Conviértete en un maestro del sushi o en una leyenda del surf.</p>
+						<p><a class="btn button-black" href="#" role="button">Descubre las últimas novedades</a></p>
+					</div>
+				</div>
+				<div class="item slide-3">
+					<div class="images-Places"></div>
+					<div class="carousel-caption">
+						<h1>Lugares de Airbnb</h1>
+						<p>Elige una ciudad y descubre todos sus rincones junto a expertos locales como Woody.</p>
+						<p><a class="btn button-black" href="#" role="button">Descubre las últimas novedades</a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="images-Keynote"></div>
+					<div class="carousel-caption">
+						<h1>En directo desde Los Ángeles</h1>
+						<p>Acompaña a Brian Chesky, nuestro director ejecutivo, en la presentación de un nuevo mundo de viajes inolvidables.</p>
+						<p><a class="btn button-black" href="#" role="button">Ver la presentación</a></p>
+					</div>
+				</div>
+  			</div>
+				<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-1" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</section>
+	<!-- FORMULARIO -->
+	<section class="mrg-Top3">
+		<div class="container">
+			<div class="row search-Form">
+				<form action="">
+					<div class="col-md-12">
+						<div class="search-Location">
+							<label for="">
+								<span>Dónde</span>
+							</label>
+							<input type="text" name="location" placeholder="Destino, ciudad, dirección">
+						</div>
+						<div class="search-Date">
+							<label for="">
+								<span>Cuándo</span>
+							</label>
+							<div>
+								<div class="date-input">
+									<input name="startDate" value="" placeholder="Llegada" maxlength="10" type="text">
+								</div>
+								<div class="date-arrow">
+									<svg viewBox="0 0 1000 1000" data-reactid=".18hjhqxjcow.1.0.1.0.0.0.0.1.1.0.1.0"><path d="M694.4 242.4l249.1 249.1c11 11 11 21 0 32L694.4 772.7c-5 5-10 7-16 7s-11-2-16-7c-11-11-11-21 0-32l210.1-210.1H67.1c-13 0-23-10-23-23s10-23 23-23h805.4L662.4 274.5c-21-21.1 11-53.1 32-32.1z" data-reactid=".18hjhqxjcow.1.0.1.0.0.0.0.1.1.0.1.0.0"></path></svg>
+								</div>
+								<div class="date-input">
+									<input name="endDate" value="" placeholder="Salida" maxlength="10" type="text">
+								</div>
+							</div>
+						</div>
+						<div class="search-Guests">
+							<label for="">
+								<span>Huéspedes</span>
+							</label>
+							<div>
+								<div class="dropdown">
+									<button class="btn " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										1 huésped
+										<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+								   	<li>
+								   		<div class="row">
+								   			<div class="col-sm-8">
+								   				<strong>2 adultos</strong>
+								   			</div>
+								   			<div class="col-sm-4">
+								   				<span>x</span>
+								   			</div>
+								   		</div>
+								   	</li>
+								   	<li role="separator" class="divider"></li>
+								   	<li>
+								   		<div class="row">
+								   			<div class="col-sm-8">
+								   				<strong>2 adultos</strong>
+								   			</div>
+								   			<div class="col-sm-4">
+								   				<span>x</span>
+								   			</div>
+								   		</div>
+								   	</li>
+								   	<li role="separator" class="divider"></li>
+								   	<li>
+								   		<div class="row">
+								   			<div class="col-sm-8">
+								   				<strong>2 adultos</strong>
+								   			</div>
+								   			<div class="col-sm-4">
+								   				<span>x</span>
+								   			</div>
+								   		</div>
+								   	</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="search-Submit">
+							<button class="btn btn-primary">/</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- JAVASCRIPT -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
